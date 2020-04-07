@@ -1,0 +1,101 @@
+/* #add8e6 */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+   background: #add8e6; 
+}
+
+.logo{
+    text-align: center;
+    margin: 2.5rem;
+}
+.main--content{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7px;
+}
+
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 3rem;
+    width: 448px;
+    height: 448px;
+    border-radius: 10px 10px 10px 0;
+}
+
+.sub-content header{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+div.email, div.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+}
+
+div > label{
+    text-align: left;
+    color: blue;
+    margin-bottom: 7px;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    padding: 14px;
+    outline: none;
+    background-color: #eee;
+    border: none;
+}
+
+input[type="submit"] {
+    border-radius: 10px 10px 10px 0;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    padding: 23px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: black;
+}
+
+div.footer a{
+    margin: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 458px) {
+    
+    .sub-content{
+        width: 90%;
+    }
+}
